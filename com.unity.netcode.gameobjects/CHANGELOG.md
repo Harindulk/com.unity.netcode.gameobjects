@@ -10,6 +10,14 @@ Additional documentation and release notes are available at [Multiplayer Documen
 
 ### Added
 
+### Fixed
+
+### Changed
+
+## [1.13.0] - 2025-04-29
+
+### Added
+
 - Added `NetworkManager.OnPreShutdown` which is called before the NetworkManager cleans up and shuts down. (#3358)
 - Added `FastBufferReader(ArraySegment<byte> buffer, Allocator copyAllocator)` constructor that uses the `ArraySegment.Offset` as the `FastBufferReader` offset and the `ArraySegment.Count` as the `FastBufferReader` length. (#3320)
 - Added `FastBufferReader(ArraySegment<byte> buffer, Allocator copyAllocator, int length = -1)` constructor that uses the `ArraySegment.Offset` as the `FastBufferReader` offset. (#3320)
